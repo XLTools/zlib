@@ -15,7 +15,6 @@ set(${PROJECT}_VERSION_PATCH 8)
 # ---------
 
 option(BUILD_STATIC "Build static libz" ON)
-option(BUILD_ZLIB "Build ZLib compressor/decompressor" OFF)
 option(BUILD_ZLIB_TESTS "Build ZLib tests" OFF)
 
 # CHECKS
