@@ -1,8 +1,9 @@
 #  :copyright: (c) 2015-2016 The Regents of the University of California.
 #  :license: MIT, see LICENSE for more details.
 
-cmake_minimum_required(VERSION 3.4)
-project(ZLib C)
+cmake_minimum_required(VERSION 2.8)
+project(zlib C)
+enable_testing()
 
 # VERSION
 # -------
@@ -15,7 +16,7 @@ set(${PROJECT}_VERSION_PATCH 8)
 # ---------
 
 option(BUILD_STATIC "Build static libz" ON)
-option(BUILD_ZLIB_TESTS "Build ZLib tests" OFF)
+option(BUILD_ZLIB_TESTS "Build ZLIB tests" OFF)
 
 # CHECKS
 # ------
